@@ -11,7 +11,7 @@ export function Footer() {
   return (
     <>
       <div className="flex bg-zinc-800 py-20 text-zinc-400 px-4">
-        <Center>
+-        <Center>
           <div className="w-full flex items-center justify-center min-h-[30vh]">
             <div className="w-full grid md:grid-cols-4 lg:grid-cols-4 grid-cols-1 items-stretch justify-between md:gap-4 gap-10">
               <div className="flex flex-col gap-4">
@@ -39,9 +39,9 @@ export function Footer() {
                     <MapPinLine size={22} />
                     Av: José Benedito de Faria, 1038 - Ponte Seca.Caraguatatuba, SP
                   </a>
-                  <a href="#" className="flex items-start gap-2">
+                  <a href="https://wa.me/message/MAKE2PBGOEQ5K1" target="_blank" className="flex items-start gap-2">
                     <Phone size={22} />
-                    Tel: +55 (11) 96987-1384
+                    Tel: +55 (12) 98156-9866
                   </a>
                 </div>
               </div>
@@ -63,21 +63,20 @@ export function Footer() {
                   Redes sociais
                 </h2>
                 <div className="flex flex-col gap-2 underline">
-                  <p className="flex gap-2 items-center">
-                    <span>
-                      <InstagramLogo size={20} />
-                    </span>
-                    @Instagram
-                  </p>
-                  <p className="flex gap-2 items-center">
-                    <span>
-                      <FacebookLogo size={20} />
-                    </span>
-                    @Facebook
-                  </p>
+                  
                   <a
                     className="flex gap-2 items-center"
-                    href="https://api.whatsapp.com/send/?phone=12981569866&text=Ola,%20gostaria%20de%20estar%20realizando%20um%20or%C3%A7amento!"
+                    href="https://www.instagram.com/carine_lashes/"
+                    target="_blank"
+                  >
+                    <span>
+                    <InstagramLogo size={20} />
+                    </span>
+                    @Instagram
+                  </a>
+                  <a
+                    className="flex gap-2 items-center"
+                    href="https://wa.me/message/MAKE2PBGOEQ5K1"
                     target="_blank"
                   >
                     <span>

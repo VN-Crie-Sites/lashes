@@ -81,4 +81,11 @@ export const cardsContentPlace = [
       'Nosso corpo técnico está preparado para atender instituições escolares, igrejas, orgãos públicos, hospitais e relacionados, buscando as melhores soluções para o combate a incêndio e acessibilidade com foco na preservação de vidas.',
     imageSource: Institucional,
   },
+  {
+    id: 5,
+    title: 'Fio a Fio',
+    about:
+      'Nosso corpo técnico está preparado para atender instituições escolares, igrejas, orgãos públicos, hospitais e relacionados, buscando as melhores soluções para o combate a incêndio e acessibilidade com foco na preservação de vidas.',
+    imageSource: Institucional,
+  },
 ]

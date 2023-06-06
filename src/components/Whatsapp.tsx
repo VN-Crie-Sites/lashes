@@ -1,5 +1,5 @@
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
-import avatar from '../../public/img/wallpaper.jpeg'
+import avatar from '../../public/img/condominal.jpg'
 
 export function WhatsApp() {
   const dateNow = new Date()

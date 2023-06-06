@@ -36,31 +36,6 @@ export function Content() {
     },
   })
 
-  const onSubmit = (data: FormProps) => {
-    const templateParams = {
-      ...data,
-    }
-
-    emailjs
-      .send(
-        'service_18iepnh',
-        'template_xvuztaj',
-        templateParams,
-        'hlyf3cRKnRr7LOU0G',
-      )
-      .then(
-        function (response) {
-          reset()
-          console.log('SUCCESS!', response.status, response.text)
-          alert('E-mai enviado com sucesso!')
-        },
-        function (error) {
-          reset()
-          console.log('FAILED...', error)
-        },
-      )
-    console.log(data)
-  }
   return (
     <main className="">
       <div id="services" className="min-h-screen flex py-20">
@@ -103,10 +78,7 @@ export function Content() {
       </div>
       <div className="min-h-[40vh] flex ">
         <Center>
-          <h1 className="font-bold text-4xl text-center leading-tight flex flex-col md:flex-row md:gap-2">
-            Nossas <span className="">clientes</span>
-          </h1>
-          <div className="w-full grid md:grid-cols-4 lg:grid-cols-4 grid-cols-2 gap-8 pb-20">
+          <div className="w-full grid md:grid-cols-5 lg:grid-cols-5 grid-cols-1 gap-8 pb-20">
             {cardsContentPlace.map((card, i) => {
               return (
                 <>

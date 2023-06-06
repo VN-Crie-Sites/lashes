@@ -11,7 +11,7 @@ export function ButtonModal({ button, children, title }: Props) {
   return (
     <Dialog.Root>
       <Dialog.Trigger asChild>
-        <button className="bg-black w-max py-1 px-2 rounded text-white">
+        <button className="bg-[#b82a7c] hover:bg-[#a42b71] transition-all w-max py-1 px-2 rounded text-white">
           Saiba mais
         </button>
       </Dialog.Trigger>
@@ -31,9 +31,9 @@ export function ButtonModal({ button, children, title }: Props) {
           </div>
           <Dialog.Description className="flex flex-col gap-4 max-h-[65vh] overflow-y-auto pr-4 scrollbar-thumb-gray-300 scrollbar-track-gray-100 scrollbar-thin scrollbar-thumb-rounded">
             {children}
-            <button className="mt-4 self-start bg-orange rounded p-2 text-white">
+            <button className="mt-4 self-start bg-[#b82a7c] hover:bg-[#a42b71] transition-all rounded p-2 text-white">
               <a
-                href="https://api.whatsapp.com/send/?phone=12981569866&text=Ola,%20gostaria%20de%20estar%20realizando%20um%20or%C3%A7amento!"
+                href="https://wa.me/message/MAKE2PBGOEQ5K1"
                 target="_blank"
                 rel="noopener noreferrer"
               >
