@@ -1,4 +1,4 @@
-export function TreinamentoBrigada() {
+export function Russo() {
   return (
     <div className="text-justify">
       <div className="flex flex-col gap-2">

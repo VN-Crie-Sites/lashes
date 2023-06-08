@@ -1,4 +1,4 @@
-export function ManutencaoPreventiva() {
+export function Curso() {
   return (
     <div className="text-justify">
       <div className="flex flex-col gap-2">

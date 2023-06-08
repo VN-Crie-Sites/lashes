@@ -1,4 +1,4 @@
-export function Documentacao() {
+export function Megavolume() {
   return (
     <div className="flex flex-col gap-4 text-justify">
       <div className="flex flex-col gap-2 ">

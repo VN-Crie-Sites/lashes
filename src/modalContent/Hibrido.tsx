@@ -1,4 +1,4 @@
-export function Instalacoes() {
+export function Hibrido() {
   return (
     <div className="text-justify">
       <div className="flex flex-col gap-2">

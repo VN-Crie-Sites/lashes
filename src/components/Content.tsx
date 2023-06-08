@@ -1,11 +1,11 @@
 import { MapPinLine, WhatsappLogo } from 'phosphor-react'
 import { cardsContentPlace, cardsContentService } from '../assets/cardsContent'
-import { Documentacao } from '../modalContent/Documentacao'
-import { Instalacoes } from '../modalContent/Instalacoes'
-import { ManutencaoPreventiva } from '../modalContent/ManutencaoPreventiva'
-import { ProjetosAndPPCI } from '../modalContent/ProjetosAndPPCI'
-import { TesteHidrostatico } from '../modalContent/TesteHidrostatico'
-import { TreinamentoBrigada } from '../modalContent/TreinamentoBrigada'
+import { Megavolume } from '../modalContent/Megavolume'
+import { Hibrido } from '../modalContent/Hibrido'
+import { Curso } from '../modalContent/Curso'
+import { Brasileiro } from '../modalContent/Brasileiro'
+import { Fioafio } from '../modalContent/Fioafio'
+import { Russo } from '../modalContent/Russo'
 import { ButtonModal } from './ButtonModal'
 import { Card } from './Card'
 import { CardPlace } from './CardPlace'
@@ -57,17 +57,17 @@ export function Content() {
                     button={'Realizar um agendamento'}
                   >
                     {card.id === 0 ? (
-                      <Documentacao />
+                      <Megavolume />
                     ) : card.id === 1 ? (
-                      <ProjetosAndPPCI />
+                      <Brasileiro />
                     ) : card.id === 2 ? (
-                      <TreinamentoBrigada />
+                      <Russo />
                     ) : card.id === 3 ? (
-                      <TesteHidrostatico />
+                      <Fioafio />
                     ) : card.id === 4 ? (
-                      <Instalacoes />
+                      <Hibrido />
                     ) : (
-                      <ManutencaoPreventiva />
+                      <Curso />
                     )}
                   </ButtonModal>
                 </Card>
@@ -102,17 +102,17 @@ export function Content() {
               </h1>
               <div className="flex flex-col gap-4 text-justify">
                 <p>
-                  A <span className="font-semibold">Carine Lashes</span>, foi
-                  criada e Oiii pessoal, venho aqui demonstrar minha gratidão, a todos aqueles que me ajudaram e me apoiaram até aqui, família, amigos…
-                  Agradecer aqueles que depositaram energias positivas, que torceram e estão torcendo por mim e por cada conquista, é tudo tão simples 
-                  mas é com muito amor, sempre foi um sonho ter o meu próprio negócio, não é fácil eu sei, e estou provando disso, mas para aqueles que 
-                  persistem nada é impossível, gratidão é o sentimento que agora me faz transbordar, eu espero por vocês em breve!
+                  A <span className="font-semibold">Carine Lashes</span>, é uma profissional altamente 
+                  qualificada e apaixonada pelo seu trabalho. Com habilidades excepcionais e um olhar 
+                  atento aos detalhes, ela está pronta para transformar seus cílios em verdadeiras obras de arte. 
+                  Seja para uma ocasião especial, como um casamento ou evento importante, ou para um look diário 
+                  que te faça sentir confiante e radiante, nossa Lash Designer irá superar suas expectativas.
                 </p>
                 <p>
-                  Com anos de experiência no ramo, procuramos proporcionar aos
-                  nossos clientes agilidade no processo, um relacionamento
-                  transparente e honesto e um custo justo e acessível para
-                  todos.
+                  Com um profundo conhecimento das técnicas mais avançadas de design de cílios, nossa especialista 
+                  irá personalizar o tratamento de acordo com suas necessidades e preferências individuais. Ela avaliará 
+                  cuidadosamente a forma dos seus olhos, a curvatura natural dos seus cílios e seu estilo pessoal para criar 
+                  um resultado perfeito e harmonioso.
                 </p>
                 <h2 className="font-semibold text-lg">
                   Onde Estamos Localizados?

@@ -1,4 +1,4 @@
-export function ProjetosAndPPCI() {
+export function Brasileiro() {
   return (
     <div className="text-justify">
       <div className="flex flex-col gap-2">

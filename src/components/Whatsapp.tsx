@@ -1,5 +1,5 @@
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
-import avatar from '../../public/img/condominal.jpg'
+import avatar from '../../public/img/whats.jpg'
 
 export function WhatsApp() {
   const dateNow = new Date()
@@ -7,7 +7,7 @@ export function WhatsApp() {
 
   const messageStatus = []
 
-  if (hours < 17 && hours > 9) {
+  if (hours < 18 && hours > 9) {
     messageStatus.push(
       'Online',
       `Ola, seja bem vindo!!! \nSomos a Carine Lashes. \n\nComo podemos te ajudar?`,
@@ -15,7 +15,7 @@ export function WhatsApp() {
   } else {
     messageStatus.push(
       'Offline',
-      `Ola, seja bem vindo!!! \nSomos a Carine Lashes. \n\nNo momento estamos disponiveis. Fique atento ao nosso horário de funcionamento: \n\nSeg à Sex: 09:00h às 17:00h \nSáb e Dom: Estamos fechados!`,
+      `Ola, seja bem vindo!!! \nSomos a Carine Lashes. \n\nNo momento estamos disponiveis. Fique atento ao nosso horário de funcionamento: \n\nSeg à Sex: 09:00h às 18:00h \nSáb e Dom: Estamos fechados!`,
     )
   }
 
